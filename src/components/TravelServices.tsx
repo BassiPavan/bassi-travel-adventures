@@ -1,11 +1,10 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Airplane, MapPin, Route, Ticket } from "lucide-react";
+import { Plane, MapPin, Route, Ticket } from "lucide-react";
 
 const services = [
   {
-    icon: Airplane,
+    icon: Plane,
     title: "Flight Booking",
     description: "Find and book the best flights worldwide with competitive prices and flexible options.",
     features: ["Best Price Guarantee", "24/7 Support", "Flexible Cancellation"],

@@ -1,7 +1,6 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { MapPin, Airplane, Route, Ticket } from "lucide-react";
+import { MapPin, Plane, Route, Ticket } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -34,7 +33,7 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
-                <Airplane size={20} />
+                <Plane size={20} />
               </div>
               <div className="w-10 h-10 bg-cyan-600 rounded-full flex items-center justify-center">
                 <MapPin size={20} />
